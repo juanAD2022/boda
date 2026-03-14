@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbara & Azizi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="TrendingSlider/TrendingSlider.css">
+</head>
+  <body>
+  <div class="wedding-title">
+    <h1>
+      <span class="highlight">Felicidades</span><br>
+      Mabel & yacet
+    </h1>
+  </div>
+  <div class="hero">
+    <div class="box">
+      <div class="column">
+        <div class="image-container">
+          <img src="img/img_lateral.jpg" alt="Imagen columna 1">
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="image-container">
+          <img src="img/img_init_test.JPG" alt="Imagen columna 2">
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="image-container">
+          <img src="img/img_lateral.jpg" alt="Imagen columna 3">
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="subtitulo">- Mensajes -</h2>
+  <div class="carrusel-container">
+    <button class="boton izq" onclick="mover(-1)">‹</button>
+    <div class="carrusel" id="carrusel">
+      <div class="tarjeta">
+        <img src="img/IMG_1.jpg" alt="Imagen 1">
+        <div class="mensaje">Mensaje tarjeta 1</div>
+      </div>
+      <div class="tarjeta">
+        <img src="img/IMG_2.jpg" alt="Imagen 2">
+        <div class="mensaje">Mensaje tarjeta 2</div>
+      </div>
+      <div class="tarjeta">
+        <img src="img/IMG_3.jpg" alt="Imagen 3">
+        <div class="mensaje">Mensaje tarjeta 3</div>
+      </div>
+      <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=4" alt="Imagen 4">
+        <div class="mensaje">Mensaje tarjeta 4</div>
+      </div>
+      <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=5" alt="Imagen 5">
+        <div class="mensaje">Mensaje tarjeta 5</div>
+      </div>
+      <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=6" alt="Imagen 6">
+        <div class="mensaje">Mensaje tarjeta 6</div>
+      </div>
+            <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=7" alt="Imagen 1">
+        <div class="mensaje">Mensaje tarjeta 1</div>
+      </div>
+      <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=8" alt="Imagen 2">
+        <div class="mensaje">Mensaje tarjeta 2</div>
+      </div>
+      <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=9" alt="Imagen 3">
+        <div class="mensaje">Mensaje tarjeta 3</div>
+      </div>
+      <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=10" alt="Imagen 4">
+        <div class="mensaje">Mensaje tarjeta 4</div>
+      </div>
+      <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=11" alt="Imagen 5">
+        <div class="mensaje">Mensaje tarjeta 5</div>
+      </div>
+      <div class="tarjeta">
+        <img src="https://picsum.photos/200/300?random=12" alt="Imagen 6">
+        <div class="mensaje">Mensaje tarjeta 6</div>
+      </div>
+    </div>
+    <button class="boton der" onclick="mover(1)">›</button>
+  </div>
+  <h2 class="subtitulo">- Álbum de la Boda -</h2>
+  <section id="tranding" class="trending-slider-section">
+    <div class="container">
+      <div class="swiper tranding-slider">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="../images/img_1.jpg" alt="Special Pizza">
+            </div>
+            <div class="tranding-slide-content">
+              <h1 class="food-price"></h1>
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">Inolvidables</h2>
+                <h3 class="food-rating">
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="../images/img_2.jpg" alt="Meat Ball">
+            </div>
+            <div class="tranding-slide-content">
+              <h1 class="food-price"></h1>
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">Los Esposos</h2>
+                <h3 class="food-rating">
+                  <span>4.5</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="../images/img_3.jpg" alt="Burger">
+            </div>
+            <div class="tranding-slide-content">
+              <h1 class="food-price"></h1>
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">Familia</h2>
+                <h3 class="food-rating">
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="../images/img_4.jpg" alt="Frish Curry">
+            </div>
+            <div class="tranding-slide-content">
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">Amigos</h2>
+                <h3 class="food-rating">
+                  <span>4.5</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tranding-slider-control">
+          <div class="swiper-button-prev slider-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </div>
+          <div class="swiper-button-next slider-arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="TrendingSlider/TrendingSlider.js"></script>
+  <script src="components.js"></script>
+</body>
+</html>

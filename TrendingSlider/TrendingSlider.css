@@ -1,0 +1,176 @@
+/* ===== TrendingSlider Component Styles ===== */
+/* Valores en px (el proyecto de referencia usaba rem con html font-size: 62.5%, es decir 1rem = 10px) */
+
+.trending-slider-section {
+  padding: 40px 0;
+}
+
+@media (max-width: 1440px) {
+  .trending-slider-section {
+    padding: 70px 0;
+  }
+}
+
+.trending-slider-section .container {
+  max-width: 1240px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.trending-slider-section .text-center {
+  text-align: center;
+}
+
+.trending-slider-section .section-heading {
+  font-size: 30px;
+  color: var(--primary, #ec994b);
+  padding: 20px 0;
+}
+
+.trending-slider-section .tranding-slider {
+  height: 520px;
+  padding: 20px 0;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .trending-slider-section .tranding-slider {
+    height: 450px;
+  }
+}
+
+.trending-slider-section .tranding-slide {
+  width: 370px;
+  height: 420px;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .trending-slider-section .tranding-slide {
+    width: 280px !important;
+    height: 360px !important;
+  }
+
+  .trending-slider-section .tranding-slide .tranding-slide-img img {
+    width: 280px !important;
+    height: 360px !important;
+  }
+}
+
+.trending-slider-section .tranding-slide .tranding-slide-img img {
+  width: 370px;
+  height: 420px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.trending-slider-section .tranding-slide .tranding-slide-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.trending-slider-section .tranding-slide-content .food-price {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: var(--white, #ffffff);
+}
+
+.trending-slider-section .tranding-slide-content .tranding-slide-content-bottom {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: var(--white, #ffffff);
+}
+
+.trending-slider-section .food-rating {
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.trending-slider-section .rating ion-icon {
+  color: var(--primary, #ec994b);
+}
+
+.trending-slider-section .swiper-slide-shadow-left,
+.trending-slider-section .swiper-slide-shadow-right {
+  display: none;
+}
+
+.trending-slider-section .tranding-slider-control {
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trending-slider-section .tranding-slider-control .swiper-button-next {
+  left: 58% !important;
+  transform: translateX(-58%) !important;
+}
+
+@media (max-width: 990px) {
+  .trending-slider-section .tranding-slider-control .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .trending-slider-section .tranding-slider-control .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .trending-slider-section .tranding-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .trending-slider-section .tranding-slider-control .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+.trending-slider-section .tranding-slider-control .slider-arrow {
+  background: var(--white, #ffffff);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.trending-slider-section .tranding-slider-control .slider-arrow ion-icon {
+  font-size: 20px;
+  color: #222224;
+}
+
+.trending-slider-section .tranding-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.trending-slider-section .tranding-slider-control .swiper-pagination {
+  position: relative;
+  width: 150px;
+  bottom: 10px;
+}
+
+.trending-slider-section .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.trending-slider-section .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--primary, #ec994b);
+}
