@@ -97,8 +97,8 @@ var albumData = {
   familia: {
     title: 'Familia',
     images: [
-      'images/familia/img_1.jpg',
       'images/familia/img_2.jpg',
+      'images/familia/img_1.jpg',
       'images/familia/img_3.jpg',
       'images/familia/img_4.jpg',
       'images/familia/img_5.jpg',
